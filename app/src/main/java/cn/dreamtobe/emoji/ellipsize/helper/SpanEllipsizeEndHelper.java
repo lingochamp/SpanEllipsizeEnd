@@ -29,6 +29,8 @@ import android.widget.TextView;
  * <p/>
  * Created by Jacksgong on 9/16/15.
  * <p/>
+ *
+ * Detail: https://github.com/Jacksgong/SpanEllipsizeEnd
  */
 public class SpanEllipsizeEndHelper {
 
