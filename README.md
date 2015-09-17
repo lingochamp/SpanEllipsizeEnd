@@ -21,7 +21,12 @@
 mDemoTv.setText(SpanEllipsizeEndHelper.matchMaxWidth(demoSS, mDemoTv));
 ```
 
-## III. License
+## III. TODO
+
+- 就目前只支持ImageSpan处理，不断拓展其他Span处理。
+- 就目前只支持单行处理，将在以后，考虑多行处理。
+
+## IV. License
 
 ```
 Copyright 2015 Jacks Blog(blog.dreamtobe.cn).

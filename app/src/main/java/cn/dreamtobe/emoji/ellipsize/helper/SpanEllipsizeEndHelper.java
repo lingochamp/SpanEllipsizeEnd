@@ -77,6 +77,7 @@ public class SpanEllipsizeEndHelper {
             return targetText;
         }
 
+        //TODO Multi-lines support
         if (textView.getMaxLines() != 1) {
             return targetText;
         }
@@ -148,6 +149,7 @@ public class SpanEllipsizeEndHelper {
                     final int tmpStart = tmpText.getSpanStart(tmpSpan);
                     final int tmpEnd = tmpText.getSpanEnd(tmpSpan);
 
+                    // TODO support other span
                     if (tmpStart < middle && tmpSpan instanceof ImageSpan) {
                         emojiDraW += ((ImageSpan) tmpSpan).getDrawable().getBounds().width();
                         emojiStrW += textPaint.measureText(tmpText, tmpStart, tmpEnd);
