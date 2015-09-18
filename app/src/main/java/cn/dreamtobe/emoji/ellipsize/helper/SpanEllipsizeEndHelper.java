@@ -13,7 +13,7 @@ import android.util.Log;
 import android.widget.TextView;
 
 /**
- * Copyright 2015 Jacks Blog(blog.dreamtobe.cn).
+ * Copyright (c) 2015 LingoChamp Inc.
  * <p/>
  * Licensed under the Apache License, Version 2.0 (the "License");
  * you may not use this file except in compliance with the License.
