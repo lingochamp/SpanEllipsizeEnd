@@ -7,11 +7,11 @@
 
 > 还是没有明白解决啥问题？不多废话，上图!
 
-![](https://raw.githubusercontent.com/Jacksgong/SpanEllipsizeEnd/master/imgs/demo.jpg)
+![](https://raw.githubusercontent.com/lingochamp/SpanEllipsizeEnd/master/imgs/demo.jpg)
 
 ## I. 基本算法
 
-![](https://raw.githubusercontent.com/Jacksgong/SpanEllipsizeEnd/master/imgs/algorithm.jpg)
+![](https://raw.githubusercontent.com/lingochamp/SpanEllipsizeEnd/master/imgs/algorithm.jpg)
 
 ## II. 使用方法
 
