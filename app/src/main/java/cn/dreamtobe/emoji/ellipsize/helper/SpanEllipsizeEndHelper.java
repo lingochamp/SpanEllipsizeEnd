@@ -30,7 +30,7 @@ import android.widget.TextView;
  * Created by Jacksgong on 9/16/15.
  * <p/>
  *
- * Detail: https://github.com/Jacksgong/SpanEllipsizeEnd
+ * README: https://github.com/lingochamp/SpanEllipsizeEnd
  */
 public class SpanEllipsizeEndHelper {
 
@@ -204,15 +204,7 @@ public class SpanEllipsizeEndHelper {
 
         // finnal middle
 
-        // remove [middle + 1, length) spans
-//        final Object[] newSpans = tmpText.getSpans(middle + 1, tmpText.length(), Object.class);
-//        if (newSpans != null) {
-//            for (Object newSpan : newSpans) {
-//                tmpText.removeSpan(newSpan);
-//            }
-//        }
-
-        // sub sequence [0, middle + 1)
+        // sub sequence [0, middle + 1) & remove [middle +1, length] spans
         tmpText = (SpannableString) tmpText.subSequence(0, middle + 1);
 //        Log.d(TAG, String.format("sub Sequence[0, %d), [%s] to [%s]", middle + 1, targetText, tmpText));
 
