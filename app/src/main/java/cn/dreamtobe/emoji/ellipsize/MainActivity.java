@@ -113,7 +113,7 @@ public class MainActivity extends AppCompatActivity {
         mNormalTv.setText(demoSS);
         mDemoTv.setText(SpanEllipsizeEndHelper.matchMaxWidth(demoSS, mDemoTv));
 //        long start = System.currentTimeMillis();
-        CharSequence s = TextUtils.ellipsize(demoSS, mDemoTv.getPaint(), mDemoTv.getMaxWidth(), TextUtils.TruncateAt.END);
+//        CharSequence s = TextUtils.ellipsize(demoSS, mDemoTv.getPaint(), mDemoTv.getMaxWidth(), TextUtils.TruncateAt.END);
 //        Log.d("SpanEllipsizeEnd",  String.valueOf(System.currentTimeMillis() - start));
 //        mDemoTv.setText(s);
     }
