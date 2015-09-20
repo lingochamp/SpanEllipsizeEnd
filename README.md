@@ -15,7 +15,20 @@
 
 ![](https://raw.githubusercontent.com/lingochamp/SpanEllipsizeEnd/master/imgs/demo.jpg)
 
-## License
+
+## I. 基本算法
+
+![](https://raw.githubusercontent.com/lingochamp/SpanEllipsizeEnd/master/imgs/algorithm.jpg)
+
+## II. 使用方法
+
+简单如下:
+
+```
+mDemoTv.setText(SpanEllipsizeEndHelper.matchMaxWidth(demoSS, mDemoTv));
+```
+
+## III. License
 
 ```
 Copyright (c) 2015 LingoChamp Inc.
