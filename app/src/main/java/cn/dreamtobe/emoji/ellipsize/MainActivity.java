@@ -5,6 +5,7 @@ import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.text.SpannableString;
 import android.text.Spanned;
+import android.text.TextUtils;
 import android.text.style.DynamicDrawableSpan;
 import android.text.style.ImageSpan;
 import android.view.View;
@@ -111,6 +112,10 @@ public class MainActivity extends AppCompatActivity {
         mOriginTv.setText(demoSS);
         mNormalTv.setText(demoSS);
         mDemoTv.setText(SpanEllipsizeEndHelper.matchMaxWidth(demoSS, mDemoTv));
+//        long start = System.currentTimeMillis();
+        CharSequence s = TextUtils.ellipsize(demoSS, mDemoTv.getPaint(), mDemoTv.getMaxWidth(), TextUtils.TruncateAt.END);
+//        Log.d("SpanEllipsizeEnd",  String.valueOf(System.currentTimeMillis() - start));
+//        mDemoTv.setText(s);
     }
 
     private int createStart(final int spanSize) {
