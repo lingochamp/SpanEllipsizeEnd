@@ -7,7 +7,7 @@
 
 虽然我发现包括，手Q、脉脉、网易云音乐等在这块处理都有问题，或者是都没有处理吧。。。因此欣然的写了这个算法。抱着造福一方的心态开源。。
 
-最终的解决是猛然回头发现`android.text.TextUtils#ellipsize(...):CharSequence`已经很好的分装了类似方法。
+最终的解决是猛然回头发现`android.text.TextUtils#ellipsize(...):CharSequence`已经很好的封装了类似的功能。
 
 #### 看图理解
 
